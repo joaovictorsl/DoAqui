@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "doaqui",
+    "slug": "doaqui",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splashScreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#151515"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "ANDROID_HOME": "home/jvsl/Android/Sdk",
+      "package": "com.jv200320.doaqui"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
